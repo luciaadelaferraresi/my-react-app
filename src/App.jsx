@@ -1,11 +1,8 @@
 import React from "react";
-import Card, { CardBody } from "./components/Card";
+import Card from "./components/Card";
+import Button from "./components/Button1";
 
 function App() {
-  return (
-    <Card>
-      <CardBody title="a" text="world" />
-    </Card>
-  );
+  return <Button>Hola mundo</Button>;
 }
 export default App;
